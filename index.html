@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Typography</title>
+        <title>positioning properties</title>
         <style>
-            .text1{
-                color: darkorange;
-                size: 300px;
+            #sticky{
+                position: sticky;
+                top: 1px;
+                left: 20px;
+                width: 300px;
+                border: 1px,solid,blue;
             }
-            .text2{
-                color: black;
-                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            #relative{
+                position: relative;
+                left: 100px;
+                border: 1px,solid,green;
+                top: 0px;
+                width: 300px;
             }
+            #Absolute{
+                position: absolute;
+                top: 1px;
+                left: 20px;
+                width: 300px;
+                border: 1px,solid,black;
+            }
+            #fixed{
+                position: fixed;
+                top: 0px;
+                right: 20px;
+                width: 300px;
+                border: 1px,solid,aquamarine;
+            }
+
         </style>
     </head>
+
     <body>
-        <p class="text1">Welcome to codingal</p>
-        <p class="text2">Welcome to codingal</p>
+        <div>div with no positioning</div>
+        <div id="sticky">sticky</div>
+        <div id="relative">relative</div>
+        <div id="Absolute">Absolute</div>
+        <div id="Fixed">Fixed</div>
+        <br><br><br><br><b<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <b<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <b></b><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </body>
 </html>
